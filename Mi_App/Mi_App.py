@@ -1,15 +1,22 @@
 import reflex as rx
+from .screen.splash_screen import splashScreen
+from .screen.home_screen import homeScreen
+from .screen.search_screen import searchScreen
+from .screen.about_user_screen import aboutUserScreen
+from .screen.about_2 import aboutUser2Screen
+from .screen.notify_screen import notifyScreen
+from rxconfig import config
+
+
 def index() -> rx.Component:
-    return rx.container(
-    
-        rx.hstack(
-            rx.vstack(
-                    rx.image(src="blob:https://web.whatsapp.com/a41da3b4-bebc-4806-b9ab-d31599152513"),
-                    rx.link("siguiente",href="/iniciar")
-                ),
-            ),
-      
-    ),
+    return rx.mobile_and_tablet(
+        #splashScreen(),
+        #homeScreen(),
+        searchScreen(),
+        #aboutUserScreen(),
+        #aboutUser2Screen(),
+        #notifyScreen(),
+    ) 
 
 
 app = rx.App()
