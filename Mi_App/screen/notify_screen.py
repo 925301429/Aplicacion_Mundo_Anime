@@ -10,8 +10,7 @@ def notifyScreen() -> rx.Component:
                 "border_bottom":"2px solid #c56dfc"},
             margin_bottom="100px"),
             rx.vstack(
-                rx.button("tines una dosis de paracetamol pendiente para tomar", height="50px", background_color="purple"),
-                rx.button("tines una dosis de ibuprofeno pendiente para tomar", height="50px", background_color="purple"),
-                rx.button("tines una dosis de clonazepan pendiente para tomar", height="50px", background_color="purple"),
-                rx.button("tines una dosis de sertralina pendiente para tomar", height="50px", background_color="purple")
+                rx.button("tienes una capitulo pendiente", height="50px", background_color="sky blue"),
+                rx.button("tines una capitulo de kimetsu noyaiva pendiente", height="50px", background_color="sky blue"),
+             
             )))

@@ -5,9 +5,9 @@ def aboutUserScreen()-> rx.Component:
         rx.container(
             rx.color_mode.button(position="top-right"),
             rx.vstack(
-                rx.image(src="/minions1.png", padding="25px", width="250px", margin_top="90px", margin_left="25px"),
-                rx.text("Con que frecuencia toma este medicamento?", margin_bottom="50px"),
-                rx.button("1 ves al dia",margin_bottom="40px", margin_left="50px", width="200px", color="blue", background="transparent",
+                rx.image(src="pngwing.com.png", padding="25px", width="250px", margin_top="90px", margin_left="25px"),
+                rx.text("Con que frecuencia ves tus animes?", margin_bottom="50px"),
+                rx.button("2 peliculas ves al dia",margin_bottom="40px", margin_left="50px", width="200px", color="blue", background="transparent",
                           _hover={
                               "background_color":"rgba(197, 109, 252, 1)"},
                           style={
@@ -15,14 +15,14 @@ def aboutUserScreen()-> rx.Component:
                               "border_right":"2px solid #c56dfc",
                               "border_top":"2px solid #c56dfc"}
                           ),
-                rx.button("2 veces al dia",margin_bottom="40px", margin_left="50px", width="200px", color="blue", background="transparent",
+                rx.button("una pelicula completa al dia",margin_bottom="40px", margin_left="50px", width="200px", color="blue", background="transparent",
                           _hover={
                               "background_color":"rgba(197, 109, 252, 1)"},
                           style={
                               "border_left":"2px solid #c56dfc",
                               "border_right":"2px solid #c56dfc"}
                           ),
-                rx.button("3 veces al dia",margin_bottom="45px", margin_left="50px", width="200px", color="blue", background="transparent",
+                rx.button("30 capitulos veces al dia",margin_bottom="45px", margin_left="50px", width="200px", color="blue", background="transparent",
                           _hover={
                               "background_color":"rgba(197, 109, 252, 1)"},
                           style={

@@ -12,7 +12,7 @@ def index() -> rx.Component:
     return rx.mobile_and_tablet(
         #splashScreen(),
         #homeScreen(),
-        searchScreen(),
+        #searchScreen(),
         #aboutUserScreen(),
         #aboutUser2Screen(),
         #notifyScreen(),
